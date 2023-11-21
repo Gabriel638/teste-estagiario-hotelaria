@@ -21,7 +21,9 @@ git clone https://github.com/Gabriel638/teste-estagiario-hotelaria.git
 cd teste-estagiario-hotelaria
 
 3- Rodando o Servidor Local:
+
 Abra o terminal ou prompt de comando.
+
 Navegue até o diretório do seu projeto Laravel, usando o comando cd:
 
 Execute o comando para iniciar o servidor Laravel:

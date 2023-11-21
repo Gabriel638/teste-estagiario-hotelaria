@@ -75,7 +75,16 @@ Em caso de erro: "Vite manifest not found"
 Execute o comando para reconstruir os ativos do Vite. No terminal, vá até o diretório do seu projeto e execute:
  **npm run dev**
 
-2-Execute os comandos para limpar o cache do Laravel e reconstruir os ativos:
+2- Caso de erro no passo anterior:
+O erro "vite não é reconhecido como um comando" indica que o Vite não está instalado ou não está disponível globalmente no seu sistema. Para resolver isso, você precisa instalar o Vite globalmente.
+ Abra o terminal.
+
+Execute o seguinte comando para instalar o Vite globalmente: **npm install -g create-vite**
+
+Após a instalação, tente novamente executar o comando: **npm run dev** 
+
+
+3-Execute os comandos para limpar o cache do Laravel e reconstruir os ativos:
 
 **php artisan config:clear**
 
@@ -83,7 +92,7 @@ Execute o comando para reconstruir os ativos do Vite. No terminal, vá até o di
 
 **php artisan view:clear**
 
-3-Reinicie o servidor do Laravel:
+4-Reinicie o servidor do Laravel:
 
 **php artisan serve**
 

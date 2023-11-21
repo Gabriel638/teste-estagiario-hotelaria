@@ -66,6 +66,30 @@ aqui estão as etapas para gerar a chave de criptografia:
 
 **php artisan serve**
 
+
+**OBS 3:**
+
+Em caso de erro: "Vite manifest not found" 
+
+1- Reconstrua os ativos do Vite:
+Execute o comando para reconstruir os ativos do Vite. No terminal, vá até o diretório do seu projeto e execute:
+ **npm run dev**
+
+2-Execute os comandos para limpar o cache do Laravel e reconstruir os ativos:
+
+**php artisan config:clear**
+
+**php artisan cache:clear**
+
+**php artisan view:clear**
+
+3-Reinicie o servidor do Laravel:
+
+**php artisan serve**
+
+
+
+
 **Requisitos do teste**
 
 Parte 1: Laravel

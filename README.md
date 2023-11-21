@@ -13,6 +13,7 @@ Laravel
 Redis
 
 **Configuração Inicial**
+
 1- Clone este repositório:
 git clone https://github.com/Gabriel638/teste-estagiario-hotelaria.git
 

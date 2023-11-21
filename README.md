@@ -31,7 +31,7 @@ Abra o terminal ou prompt de comando.
 Execute o comando para iniciar o servidor Laravel:
 **php artisan serve**
 
-OBS:
+**OBS:**
 
 Caso você inicie o servidor e ele der erro: "vendor/autoload.php"
 
@@ -44,6 +44,27 @@ composer install
 
 
 O Laravel iniciará o servidor e informará em qual endereço o aplicativo está sendo executado, geralmente em http://127.0.0.1:8000/
+
+**OBS 2:**
+
+Em caso de erro: "No application encryption key has been specified" ocorre quando a chave de criptografia do Laravel não foi gerada ou configurada.
+
+aqui estão as etapas para gerar a chave de criptografia:
+
+1-No terminal, navegue até o diretório do seu projeto Laravel.
+
+2-Execute o seguinte comando Artisan para gerar a chave de aplicativo:
+ **php artisan key:generate**
+
+3-Após gerar a chave, limpe o cache do Laravel executando os seguintes comandos:
+
+**php artisan config:clear**
+
+**php artisan cache:clear**
+
+4-Reinicie o Servidor Laravel:
+
+**php artisan serve**
 
 **Requisitos do teste**
 

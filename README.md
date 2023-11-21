@@ -7,9 +7,13 @@ Este projeto é parte do teste para a vaga de estagiário de desenvolvimento web
 Certifique-se de ter os seguintes requisitos instalados antes de prosseguir:
 
 PHP (versão 7.4 ou superior)
+
 Composer
+
 PostgreSQL
+
 Laravel
+
 Redis
 
 **Configuração Inicial**

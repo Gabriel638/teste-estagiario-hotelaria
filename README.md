@@ -28,10 +28,20 @@ cd teste-estagiario-hotelaria
 
 Abra o terminal ou prompt de comando.
 
-Navegue até o diretório do seu projeto Laravel, usando o comando cd:
-
 Execute o comando para iniciar o servidor Laravel:
-php artisan serve
+**php artisan serve**
+
+OBS:
+
+Caso você inicie o servidor e ele der erro: "vendor/autoload.php"
+
+Para resolver esse problema, você precisa instalar as dependências do seu projeto usando o Composer. Certifique-se de que você tem o Composer instalado em seu sistema. Se ainda não o tiver, você pode baixá-lo em getcomposer.org
+
+Após isso:
+Navegue até o Diretório do Seu Projeto e Execute o Comando do Composer para Instalar Dependências e depois tente novamente o passo 3 da **Configuração Inicial** :
+
+composer install
+
 
 O Laravel iniciará o servidor e informará em qual endereço o aplicativo está sendo executado, geralmente em http://127.0.0.1:8000/
 
